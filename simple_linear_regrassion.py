@@ -1,3 +1,5 @@
+# Simple Linear Regression Implementation
+
 class maralr:
 
     def __init__(self):
@@ -30,4 +32,4 @@ if __name__ == "__main__":
     print("Coefficient:", model.coefficient)
     print("Intercept:", model.intercept)
     print("Predictions:", predictions)
-# Simple Linear Regression Implementation
+
