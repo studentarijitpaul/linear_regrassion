@@ -20,8 +20,8 @@ class maralr:
 # Simple Linear Regression Implementation       
 if __name__ == "__main__":
     # Example usage
-    X = [1, 2, 3, 4, 5]
-    y = [2, 3, 5, 7, 11]
+    X = [1, 2, 3, 4, 5,4,4,5,8,9,7,6,3,2,1,0,5,6,7,8,9,10]
+    y = [2, 3, 5, 7, 11,13,12,14,17,19,15,13,7,5,3,1,12,14,16,18,20,22]
 
     model = maralr()
     model.fit(X, y)
